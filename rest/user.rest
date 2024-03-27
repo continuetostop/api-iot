@@ -1,0 +1,22 @@
+### 
+GET  http://localhost:3000/user
+content-type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI4ZmFhNTRiYy1lYTllLTRiMDMtOTA1Yy1kODAyZTE5ZjM1MmMiLCJlbWFpbCI6ImFiY0BnbWFpbC5jb20iLCJpYXQiOjE3MTEyMTMxMDQsImV4cCI6MTcxMTI5OTUwNH0.NzaE2Cr9X_y6bsImIVkpHN7XLGAMKsMgPR9pnZiUS_8
+
+
+### Get user
+GET http://localhost:3000/user/957d301f-ccf3-4b83-8dfa-a7738337d1c4
+content-type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI4ZmFhNTRiYy1lYTllLTRiMDMtOTA1Yy1kODAyZTE5ZjM1MmMiLCJlbWFpbCI6ImFiY0BnbWFpbC5jb20iLCJpYXQiOjE3MTEyMTMxMDQsImV4cCI6MTcxMTI5OTUwNH0.NzaE2Cr9X_y6bsImIVkpHN7XLGAMKsMgPR9pnZiUS_8
+
+
+### Update user
+PATCH http://localhost:3000/user/1
+
+### Delete user
+DELETE  http://localhost:3000/user/1
+
+
+
+
+

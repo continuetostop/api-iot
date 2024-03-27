@@ -1,0 +1,17 @@
+@hostname = http://localhost:3000
+@accestToken =eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI5YjQxMTRkMS04MDUzLTQxMjItODA5Yy1jZjNjNWJhZWEzNDMiLCJlbWFpbCI6ImFiY0BnbWFpbC5jb20iLCJwcml2aWxlZ2VzIjpudWxsLCJpYXQiOjE3MTE0NzQ0MjIsImV4cCI6MTcxMTU2MDgyMn0.732diI54EQFFogAI9ONmOQmZ2Nh3BjpNq7yJxdzj21I
+
+### Get all arduino
+GET  {{hostname}}/arduino
+content-type: application/json
+Authorization: Bearer {{accestToken}}
+
+
+### Create arduino
+POST {{hostname}}/arduino
+content-type: application/json
+Authorization: Bearer {{accestToken}}
+
+{
+  "name":"esp8266"
+}

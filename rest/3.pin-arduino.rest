@@ -1,0 +1,21 @@
+@hostname = http://localhost:3000
+@accestToken = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI5YjQxMTRkMS04MDUzLTQxMjItODA5Yy1jZjNjNWJhZWEzNDMiLCJlbWFpbCI6ImFiY0BnbWFpbC5jb20iLCJwcml2aWxlZ2VzIjpudWxsLCJpYXQiOjE3MTE0NzYxOTksImV4cCI6MTcxMTU2MjU5OX0.PQr6zzWTFNEljxbzSuHY2qJZ750_aaYij3gYWPJqj5U
+
+### Get all pin-arduino
+
+GET  {{hostname}}/pin-arduino
+content-type: application/json
+Authorization: Bearer {{accestToken}}
+
+
+### Create pin-arduino
+
+POST {{hostname}}/pin-arduino
+content-type: application/json
+Authorization: Bearer {{accestToken}}
+
+{
+  "pinId":"613dfae2-8a6e-461f-941b-ae33ab23cca9",
+  "arduinoId":"a7a355a3-0641-4791-bd46-d5fd01e57a40",
+  "value":"5"
+}
